@@ -1,0 +1,56 @@
+.hero {
+
+    width: calc(100% - 10rem);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+    .left {
+
+        width: 50%;
+
+        h1 {
+            font-size: 2rem;
+            color: #3f3f3f;
+
+            span {
+                color: #fb4275;
+            }
+        }
+
+        p {
+
+            color: #3f3f3f;
+
+        }
+
+        button {
+
+            color: white;
+            background-color: #fb4275;
+            border: none;
+            padding: 15px 30px;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+        }
+
+    }
+
+    .right {
+
+        width: 50%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 315px;
+        }
+
+    }
+
+}

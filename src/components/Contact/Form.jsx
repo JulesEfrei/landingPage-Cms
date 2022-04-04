@@ -2,7 +2,7 @@ export default function Form() {
 
     return (
 
-        <form name="contact" method="post" netlify netlify-honeypot="bot-field" onSubmit={ (e) => {
+        <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field" onSubmit={ (e) => {
             e.preventDefault()
             alert('Form Send')
             }}>
