@@ -1,5 +1,6 @@
 import '../styles/contact.scss'
 import Form from '../components/Contact/Form'
+import TitreSection from '../components/TitreSection'
 
 function Contact() {
 
@@ -7,10 +8,7 @@ function Contact() {
 
         <section>
 
-            <div className="title">
-                <h1>Contact</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quibusdam nihil necessitatibus cupiditate</p>
-            </div>
+            <TitreSection h1="Contact" lorem="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum" />
 
             <div className="form-container">
                 <Form />

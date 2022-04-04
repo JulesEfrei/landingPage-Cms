@@ -1,3 +1,5 @@
+import '../../styles/titre.scss'
+
 export default function Form() {
 
     return (

@@ -2,6 +2,7 @@ import './App.css';
 import Contact from './view/Contact'
 import Header from './view/Header'
 import HeroBanner from './view/HeroBanner'
+import Service from './view/Service';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Header />
 
       <HeroBanner />
+
+      <Service />
       
       <Contact />
       
