@@ -1,5 +1,4 @@
 import '../styles/contact.scss'
-
 import Form from '../components/Contact/Form'
 
 function Contact() {
