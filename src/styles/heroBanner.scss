@@ -1,57 +1,135 @@
 .hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 
-    width: calc(100% - 10rem);
+  .left {
+    h1 {
+      font-size: 2rem;
+      color: #3f3f3f;
+
+      span {
+        color: #fb4275;
+      }
+    }
+
+    p {
+      color: #3f3f3f;
+    }
+
+    button {
+      color: white;
+      background-color: #fb4275;
+      border: none;
+      padding: 15px 30px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .right {
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
+    justify-content: center;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+//Laptop
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .hero {
+    width: calc(100% - 10rem);
     margin-left: 5rem;
     margin-right: 5rem;
 
     .left {
-
-        width: 50%;
-
-        h1 {
-            font-size: 2rem;
-            color: #3f3f3f;
-
-            span {
-                color: #fb4275;
-            }
-        }
-
-        p {
-
-            color: #3f3f3f;
-
-        }
-
-        button {
-
-            color: white;
-            background-color: #fb4275;
-            border: none;
-            padding: 15px 30px;
-
-            &:hover {
-                cursor: pointer;
-            }
-
-        }
-
+      width: 60%;
     }
 
     .right {
+      width: 35%;
+      height: 35%;
+    }
+  }
+}
 
-        width: 50%;
-        display: flex;
-        justify-content: center;
+//Mobile
+@media screen and (max-width: 768px) {
+  .hero {
+    width: calc(100% - 4rem);
+    padding: 0 2rem;
+    flex-direction: column;
+    align-items: center;
 
-        img {
-            width: 315px;
-        }
+    .left {
+      width: 100%;
 
+      h1  {
+        font-size: 1rem;
+      }
+
+      button {
+        padding: 10px 15px;
+        margin-top: 0.5rem;
+      }
     }
 
+    .right {
+      margin-top: 2rem;
+      width: 100%;
+      position: relative;
+
+      .img {
+        width: 75%;
+      }
+    }
+  }
+}
+
+// Tablet
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .hero {
+    width: calc(100% - 8rem);
+    padding: 0 4rem;
+
+    .left {
+      width: 50%;
+    }
+
+    .right {
+      width: 50%;
+
+      .img {
+        width: 60%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+//Desktop
+@media screen and (min-width: 1441px) {
+  .hero {
+    width: calc(100% - 14rem);
+    padding: 0 7rem;
+    align-items: center;
+
+    .left {
+        
+        h1 {
+        width: 75%;
+      }
+
+      p{
+        width: 50%;
+    }
+
+    }
+  }
 }

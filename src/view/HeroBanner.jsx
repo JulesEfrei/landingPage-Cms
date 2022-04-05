@@ -13,7 +13,7 @@ export default function HeroBanner() {
             </div>
 
             <div className="right">
-                <img src="./assets/banner.png" alt="Banner" />
+                <img src="./assets/banner.png" alt="Banner" className="img" />
             </div>
 
         </section>
