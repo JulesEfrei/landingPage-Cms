@@ -21,4 +21,23 @@ collections:
           widget: "object" #Type de donnée
           fields:
             - { label: "Titre", name: "title", widget: "string"}
-            - { label: "Sous-Titre", name: "paragraph", widget: "string"}
+            - { label: "Sub-Title", name: "paragraph", widget: "string"}
+            - { label: "Button", name: "button", widget: "string"}
+            - { label: "Image", name: "image", widget: "image"}
+        - label: "Contact Section" #Nom dans le CMS
+          name: "contact" #Nom dans data.json
+          widget: "object" #Type de donnée
+          fields:
+            - { label: "Titre", name: "title", widget: "string"}
+            - { label: "Sub-Title", name: "subtitle", widget: "string"}
+            - { label: "Input Value", name: "input-value", widget: "string"}
+            - { label: "Input Submit Value", name: "submit-value", widget: "string"}
+        # - label: "Services Section" #Nom dans le CMS
+        #   name: "services" #Nom dans data.json
+        #   widget: "object" #Type de donnée
+        #   fields:
+        #     - { label: "Titre", name: "title", widget: "string"}
+        #     - { label: "Sub-Title", name: "subtitle", widget: "string"}
+        #     - label: "Input Value"
+        #       name: "input-value"
+        #       widget: "list"
