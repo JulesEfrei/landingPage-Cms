@@ -8,13 +8,13 @@ export default function HeroBanner() {
         <section className="hero">
 
             <div className="left">
-                <h1>{data.hero.title}</h1>
+                <h1>{data.hero.title[0]} <span>{data.hero.title[1]}</span> {data.hero.title[2]}</h1>
                 <p>{data.hero.paragraph}</p>
-                <button>GET STARTED</button>
+                <button>{data.hero.button}</button>
             </div>
 
             <div className="right">
-                <img src="./assets/banner.png" alt="Banner" className="img" />
+                <img src={data.hero.image} alt="Banner" className="img" />
             </div>
 
         </section>
