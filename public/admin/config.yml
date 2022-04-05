@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "assets/images"
+public_folder: "/images"
+
+collections: 
+- name: "Data"
+  label: "Data"
+  files:
+  - label: "Data"
+  name: "data"
+  file: src/data.json
+  format: "json"
+  create: true
+  slug: "data"
+  fields:
+    - label: "Hero" #Nom dans le CMS
+    - name: "hero" #Nom dans data.json
+    - widget: "object" #Type de donnée
+    fields:
+      - { label: "Titre", name: "title", widget: "string"}
+      - { label: "Sous-Titre", name: "paragraph", widget: "string"}

@@ -1,4 +1,5 @@
 import '../styles/heroBanner.scss'
+import data from '../data.json'
 
 export default function HeroBanner() {
 
@@ -7,8 +8,8 @@ export default function HeroBanner() {
         <section className="hero">
 
             <div className="left">
-                <h1>Make <span>business</span> width us & become beautiful</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1>{data.hero.title}</h1>
+                <p>{data.hero.paragraph}</p>
                 <button>GET STARTED</button>
             </div>
 
