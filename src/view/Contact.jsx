@@ -1,5 +1,5 @@
 import '../styles/contact.scss'
-import Form from '../components/Contact/Form'
+import Form from '../components/Form'
 import TitreSection from '../components/TitreSection'
 
 function Contact() {
