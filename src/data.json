@@ -1,24 +1,48 @@
 {
-    "hero" : {
-        "title": ["Make", "business", "with us & become beautiful"],
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "button": "GET STARTED",
-        "image": "./assets/banner.png"
-    },
-    "contact": {
-        "title": "Contact",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum",
-        "input-value": "Mail",
-        "submit-value": "SUBMIT"
-    },
-    "services": {
-        "title": "Services",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum",
-        "cart": [
-            {"id": 1, "src": "./assets/seo.svg", "title": "Market Research", "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."},
-            {"id": 2, "src": "./assets/technology.svg", "title": "Market Research", "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."},
-            {"id": 3, "src": "./assets/cloud.svg", "title": "Market Research", "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."},
-            {"id": 4, "src": "./assets/support.svg", "title": "Market Research", "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."}
-        ]
-    }
+  "hero": {
+    "title": [
+      "Make",
+      "business",
+      "with us & become beautiful"
+    ],
+    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "button": "GET STARTED",
+    "image": "/1.png"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum",
+    "input-value": "Mail",
+    "submit-value": "SUBMIT"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum",
+    "cart": [
+      {
+        "id": 1,
+        "src": "./assets/seo.svg",
+        "title": "Market Research",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+      },
+      {
+        "id": 2,
+        "src": "./assets/technology.svg",
+        "title": "Market Research",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+      },
+      {
+        "id": 3,
+        "src": "./assets/cloud.svg",
+        "title": "Market Research",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+      },
+      {
+        "id": 4,
+        "src": "./assets/support.svg",
+        "title": "Market Research",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+      }
+    ]
+  }
 }
