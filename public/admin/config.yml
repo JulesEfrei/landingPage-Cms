@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 publish_mode: editorial_workflow
-media_folder: "assets/"
-public_folder: "/"
+media_folder: "public/assets/uploads"
+public_folder: "/assets/uploads"
 
 collections: 
 - name: "Data"
