@@ -59,9 +59,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](loading-page-cms.netlify.app/)
 
-* What the application does ?
-* State of the Project (Alpha, Beta, Realeased)
-* Main difficulties - [Roadmap](#roadmap)
+This project is a loading page template that includes a CMS to change all text and images on the website.
+
+**State of the project => v.0.5.0**
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
