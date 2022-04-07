@@ -19,12 +19,12 @@
   <h2 align="center">Landing Page with CMS</h2>
 
   <p align="center">
-    Short description
+    Landing Page template deployed on Netlify with a CMS feature
     <br />
     <!-- <a href="https://github.com/JulesEfrei/landingPage-Cms"><strong>Explore the docs</strong></a> -->
     <br />
     <br />
-    <a href="loading-page-cms.netlify.app/">View Demo</a>
+    <a href="https://loading-page-cms.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/JulesEfrei/landingPage-Cms/issues">Report Bug</a>
     ·
@@ -72,14 +72,9 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [React](https://reactjs.org)
+* [Netlify](https://www.netlify.com)
+* [NetlifyCMS](https://www.netlifycms.org) 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -90,11 +85,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 Here is the roadmap of the project. Checked flags mean the features is out and unchecked flags mean that the feature is comming.
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ] Add full responsive website
+- [ ] Complete CMS feature
 
 See the [open issues](https://github.com/JulesEfrei/landingPage-Cms/issues) for a full list of proposed features (and known issues).
 
