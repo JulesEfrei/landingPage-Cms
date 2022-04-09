@@ -6,8 +6,8 @@ media_folder: "public/assets/uploads"
 public_folder: "/assets/uploads"
 
 collections: 
-- name: "Data"
-  label: "Data"
+- name: "hero-banner"
+  label: "data"
   files:
   - label: "Data"
     name: "data"
@@ -24,6 +24,16 @@ collections:
             - { label: "Sub-Title", name: "paragraph", widget: "string"}
             - { label: "Button", name: "button", widget: "string"}
             - { label: "Image", name: "image", widget: "image"}
+- name: "Contact"
+  label: "data"
+  files:
+  - label: "Data"
+    name: "data"
+    file: src/data.json
+    format: "json"
+    create: true
+    slug: "data"
+    fields:
         - label: "Contact Section" #Nom dans le CMS
           name: "contact" #Nom dans data.json
           widget: "object" #Type de donnée
