@@ -62,7 +62,6 @@ collections:
               name: "cart"
               widget: "list"
               fields:
-                - { label: "Id", name: "id", widget: "number"}
                 - { label: "Source", name: "src", widget: "image"}
                 - { label: "Title", name: "title", widget: "string"}
                 - { label: "Content", name: "content", widget: "string"}
