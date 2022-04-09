@@ -7,10 +7,10 @@ public_folder: "/assets/uploads"
 
 collections: 
 - name: "hero-banner"
-  label: "data"
+  label: "Hero Banner"
   files:
   - label: "Data"
-    name: "data"
+    name: "Hero-banner"
     file: src/data.json
     format: "json"
     create: true
@@ -25,10 +25,10 @@ collections:
             - { label: "Button", name: "button", widget: "string"}
             - { label: "Image", name: "image", widget: "image"}
 - name: "Contact"
-  label: "data"
+  label: "Contact"
   files:
   - label: "Data"
-    name: "data"
+    name: "Contact"
     file: src/data.json
     format: "json"
     create: true
