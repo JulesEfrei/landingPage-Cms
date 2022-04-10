@@ -42,22 +42,22 @@ collections:
             - { label: "Sub-Title", name: "subtitle", widget: "string"}
             - { label: "Input Value", name: "input-value", widget: "string"}
             - { label: "Input Submit Value", name: "submit-value", widget: "string"}
-# - name: "Service"
-#   label: "Service"
-#   files:
-#   - label: "Data"
-#     name: "Service"
-#     file: src/data.json
-#     format: "json"
-#     create: true
-#     slug: "data"
-#     fields:
-#         - label: "Services Section" #Nom dans le CMS
-#           name: "services" #Nom dans data.json
-#           widget: "object" #Type de donnée
-#           fields:
-#             - { label: "Titre", name: "title", widget: "string"}
-#             - { label: "Sub-Title", name: "subtitle", widget: "string"}
+- name: "Service"
+  label: "Service"
+  files:
+  - label: "Data"
+    name: "Service"
+    file: src/data.json
+    format: "json"
+    create: true
+    slug: "data"
+    fields:
+        - label: "Services Section" #Nom dans le CMS
+          name: "services" #Nom dans data.json
+          widget: "object" #Type de donnée
+          fields:
+            - { label: "Titre", name: "title", widget: "string"}
+            - { label: "Sub-Title", name: "subtitle", widget: "string"}
             # - label: "Services"
             #   name: "cart"
             #   widget: "list"
