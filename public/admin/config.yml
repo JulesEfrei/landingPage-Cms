@@ -58,10 +58,10 @@ collections:
           fields:
             - { label: "Titre", name: "title", widget: "string"}
             - { label: "Sub-Title", name: "subtitle", widget: "string"}
-            # - label: "Services"
-            #   name: "cart"
-            #   widget: "list"
-            #   fields:
-            #     - { label: "Source", name: "src", widget: "image"}
-            #     - { label: "Title", name: "title", widget: "string"}
-            #     - { label: "Content", name: "content", widget: "string"}
+            - label: "Services"
+              name: "cart"
+              widget: "list"
+              fields:
+                - { label: "Source", name: "src", widget: "image"}
+                - { label: "Title", name: "title", widget: "string"}
+                - { label: "Content", name: "content", widget: "string"}
